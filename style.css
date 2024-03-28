@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    background-color: rgb(221, 196, 234);
+    flex-direction: column;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    gap: 10px;
+}
+.weather{
+    display: flex;
+    gap: 10px;
+}
+.weather .cityInput{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(254, 254, 254);
+    border: none;
+    
+}
+.weather button{
+    border-radius: 10px;
+    background-color: rgb(197, 186, 35);
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.weather button:hover{
+    background-color: rgb(180, 177, 128);
+}
+.card{
+    background-color: azure;
+    padding: 30px;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.188);
+    gap: 15px;
+}
+.card h1{
+    font-size: 40px;
+    color: rgb(89, 86, 86);
+    margin: 0px;
+}
+.card .tempDisplay{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(104, 134, 221);
+    margin: 0px;
+}
+.card .HumanityDisplay{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(93, 100, 106);
+    margin: 0px;
+}
+.card .descDisplay{
+    color: rgb(82, 82, 86);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+}
+.card .weatherEmoji{
+    font-size: 100px;
+    margin: 0px;
+    border: 0px solid rgb(106, 106, 103) ;
+    background-color: rgba(0, 0, 255, 0.182);
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.396);
+    
+}
+.card .errorDisplay{
+    font-size: 30px;
+    color: rgb(89, 86, 86);
+    margin: 0px;
+}
